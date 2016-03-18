@@ -10,6 +10,11 @@
 		30A036D51C9C12720073B505 /* Nodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A036D41C9C12720073B505 /* Nodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30A036DC1C9C12730073B505 /* Nodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036D11C9C12720073B505 /* Nodes.framework */; };
 		30A036E11C9C12730073B505 /* NodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036E01C9C12730073B505 /* NodesTests.swift */; };
+		30A036EC1C9C14970073B505 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036EB1C9C14970073B505 /* Nodes.swift */; };
+		30A036F21C9C24B90073B505 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036EE1C9C24B90073B505 /* Alamofire.framework */; };
+		30A036F31C9C24B90073B505 /* Blobfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036EF1C9C24B90073B505 /* Blobfish.framework */; };
+		30A036F41C9C24B90073B505 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036F01C9C24B90073B505 /* Reachability.framework */; };
+		30A036F51C9C24B90073B505 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036F11C9C24B90073B505 /* Serializable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 		30A036DB1C9C12730073B505 /* NodesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A036E01C9C12730073B505 /* NodesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesTests.swift; sourceTree = "<group>"; };
 		30A036E21C9C12730073B505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A036EB1C9C14970073B505 /* Nodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nodes.swift; sourceTree = "<group>"; };
+		30A036EE1C9C24B90073B505 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Nodes/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		30A036EF1C9C24B90073B505 /* Blobfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blobfish.framework; path = Nodes/Carthage/Build/iOS/Blobfish.framework; sourceTree = "<group>"; };
+		30A036F01C9C24B90073B505 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Nodes/Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
+		30A036F11C9C24B90073B505 /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Nodes/Carthage/Build/iOS/Serializable.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A036F21C9C24B90073B505 /* Alamofire.framework in Frameworks */,
+				30A036F51C9C24B90073B505 /* Serializable.framework in Frameworks */,
+				30A036F41C9C24B90073B505 /* Reachability.framework in Frameworks */,
+				30A036F31C9C24B90073B505 /* Blobfish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +70,7 @@
 				30A036D31C9C12720073B505 /* Nodes */,
 				30A036DF1C9C12730073B505 /* NodesTests */,
 				30A036D21C9C12720073B505 /* Products */,
+				30A036ED1C9C24A50073B505 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				30A036D41C9C12720073B505 /* Nodes.h */,
+				30A036EB1C9C14970073B505 /* Nodes.swift */,
 				30A036D61C9C12720073B505 /* Info.plist */,
 			);
 			path = Nodes;
@@ -84,6 +100,17 @@
 				30A036E21C9C12730073B505 /* Info.plist */,
 			);
 			path = NodesTests;
+			sourceTree = "<group>";
+		};
+		30A036ED1C9C24A50073B505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30A036EE1C9C24B90073B505 /* Alamofire.framework */,
+				30A036EF1C9C24B90073B505 /* Blobfish.framework */,
+				30A036F01C9C24B90073B505 /* Reachability.framework */,
+				30A036F11C9C24B90073B505 /* Serializable.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A036EC1C9C14970073B505 /* Nodes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,26 +338,37 @@
 		30A036E61C9C12730073B505 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Nodes/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Nodes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nodes.Nodes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		30A036E71C9C12730073B505 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Nodes/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Nodes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
