@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C706D71C9DB0C10024E94A /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C706D31C9DB0C10024E94A /* Serializable.framework */; };
+		01C706D81C9DB0C10024E94A /* Blobfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C706D41C9DB0C10024E94A /* Blobfish.framework */; };
+		01C706D91C9DB0C10024E94A /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C706D51C9DB0C10024E94A /* Reachability.framework */; };
+		01C706DA1C9DB0C10024E94A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C706D61C9DB0C10024E94A /* Alamofire.framework */; };
 		30A036D51C9C12720073B505 /* Nodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A036D41C9C12720073B505 /* Nodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30A036DC1C9C12730073B505 /* Nodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036D11C9C12720073B505 /* Nodes.framework */; };
 		30A036E11C9C12730073B505 /* NodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036E01C9C12730073B505 /* NodesTests.swift */; };
 		30A036EC1C9C14970073B505 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036EB1C9C14970073B505 /* Nodes.swift */; };
-		30A036F21C9C24B90073B505 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036EE1C9C24B90073B505 /* Alamofire.framework */; };
-		30A036F31C9C24B90073B505 /* Blobfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036EF1C9C24B90073B505 /* Blobfish.framework */; };
-		30A036F41C9C24B90073B505 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036F01C9C24B90073B505 /* Reachability.framework */; };
-		30A036F51C9C24B90073B505 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036F11C9C24B90073B505 /* Serializable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C706D31C9DB0C10024E94A /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/iOS/Serializable.framework; sourceTree = "<group>"; };
+		01C706D41C9DB0C10024E94A /* Blobfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blobfish.framework; path = Carthage/Build/iOS/Blobfish.framework; sourceTree = "<group>"; };
+		01C706D51C9DB0C10024E94A /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
+		01C706D61C9DB0C10024E94A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		30A036D11C9C12720073B505 /* Nodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A036D41C9C12720073B505 /* Nodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nodes.h; sourceTree = "<group>"; };
 		30A036D61C9C12720073B505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,10 +39,6 @@
 		30A036E01C9C12730073B505 /* NodesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesTests.swift; sourceTree = "<group>"; };
 		30A036E21C9C12730073B505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30A036EB1C9C14970073B505 /* Nodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nodes.swift; sourceTree = "<group>"; };
-		30A036EE1C9C24B90073B505 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Nodes/Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		30A036EF1C9C24B90073B505 /* Blobfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blobfish.framework; path = Nodes/Carthage/Build/iOS/Blobfish.framework; sourceTree = "<group>"; };
-		30A036F01C9C24B90073B505 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Nodes/Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
-		30A036F11C9C24B90073B505 /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Nodes/Carthage/Build/iOS/Serializable.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +46,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A036F21C9C24B90073B505 /* Alamofire.framework in Frameworks */,
-				30A036F51C9C24B90073B505 /* Serializable.framework in Frameworks */,
-				30A036F41C9C24B90073B505 /* Reachability.framework in Frameworks */,
-				30A036F31C9C24B90073B505 /* Blobfish.framework in Frameworks */,
+				01C706D71C9DB0C10024E94A /* Serializable.framework in Frameworks */,
+				01C706D91C9DB0C10024E94A /* Reachability.framework in Frameworks */,
+				01C706D81C9DB0C10024E94A /* Blobfish.framework in Frameworks */,
+				01C706DA1C9DB0C10024E94A /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,10 +105,10 @@
 		30A036ED1C9C24A50073B505 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30A036EE1C9C24B90073B505 /* Alamofire.framework */,
-				30A036EF1C9C24B90073B505 /* Blobfish.framework */,
-				30A036F01C9C24B90073B505 /* Reachability.framework */,
-				30A036F11C9C24B90073B505 /* Serializable.framework */,
+				01C706D31C9DB0C10024E94A /* Serializable.framework */,
+				01C706D41C9DB0C10024E94A /* Blobfish.framework */,
+				01C706D51C9DB0C10024E94A /* Reachability.framework */,
+				01C706D61C9DB0C10024E94A /* Alamofire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,6 +346,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Nodes/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Nodes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -368,6 +369,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Nodes/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Nodes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -417,6 +419,7 @@
 				30A036E71C9C12730073B505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30A036E81C9C12730073B505 /* Build configuration list for PBXNativeTarget "NodesTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +428,7 @@
 				30A036EA1C9C12730073B505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
