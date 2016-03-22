@@ -1,0 +1,10 @@
+framework module Blobfish {
+  umbrella header "Blobfish.h"
+
+  export *
+  module * { export * }
+}
+
+module Blobfish.Swift {
+    header "Blobfish-Swift.h"
+}

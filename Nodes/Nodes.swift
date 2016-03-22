@@ -77,6 +77,7 @@ extension Meta: Serializable {
         return dict
     }
 }
+
 protocol PaginatedResponseProtocol { }
 
 final class PaginatedResponse<T:Serializable> {
