@@ -81,8 +81,8 @@ extension Meta: Serializable {
 protocol PaginatedResponseProtocol { }
 
 public final class PaginatedResponse<T:Serializable> {
-    var data:[T] = [T]()
-    var meta:Meta = Meta()
+    public var data:[T] = [T]()
+    public var meta:Meta = Meta()
 }
 
 extension PaginatedResponse: PaginatedResponseProtocol {}
