@@ -35,11 +35,11 @@ public func unwrapper() -> Parser.Unwrapper  {
 }
 
 public struct Pagination {
-    var total = 0
-    var count = 0
-    var perPage = 0
-    var currentPage = 0
-    var totalPages = 0
+    public var total = 0
+    public var count = 0
+    public var perPage = 0
+    public var currentPage = 0
+    public var totalPages = 0
 }
 
 extension Pagination: Serializable {
@@ -63,7 +63,7 @@ extension Pagination: Serializable {
 }
 
 public struct Meta {
-    var pagination = Pagination()
+    public var pagination = Pagination()
 }
 
 extension Meta: Serializable {
