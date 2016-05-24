@@ -11,10 +11,12 @@
 		01C706D81C9DB0C10024E94A /* Blobfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C706D41C9DB0C10024E94A /* Blobfish.framework */; };
 		01C706D91C9DB0C10024E94A /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C706D51C9DB0C10024E94A /* Reachability.framework */; };
 		01C706DA1C9DB0C10024E94A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C706D61C9DB0C10024E94A /* Alamofire.framework */; };
+		304BDE9C1CF51F28004D2DA6 /* PaginatedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */; };
+		304BDE9E1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */; };
 		30A036D51C9C12720073B505 /* Nodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A036D41C9C12720073B505 /* Nodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30A036DC1C9C12730073B505 /* Nodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036D11C9C12720073B505 /* Nodes.framework */; };
 		30A036E11C9C12730073B505 /* NodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036E01C9C12730073B505 /* NodesTests.swift */; };
-		30A036EC1C9C14970073B505 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036EB1C9C14970073B505 /* Nodes.swift */; };
+		30A036EC1C9C14970073B505 /* BlobfishConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +34,15 @@
 		01C706D41C9DB0C10024E94A /* Blobfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blobfish.framework; path = Carthage/Build/iOS/Blobfish.framework; sourceTree = "<group>"; };
 		01C706D51C9DB0C10024E94A /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
 		01C706D61C9DB0C10024E94A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatedResponse.swift; sourceTree = "<group>"; };
+		304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializableParserUnwrapper.swift; sourceTree = "<group>"; };
 		30A036D11C9C12720073B505 /* Nodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A036D41C9C12720073B505 /* Nodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nodes.h; sourceTree = "<group>"; };
 		30A036D61C9C12720073B505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30A036DB1C9C12730073B505 /* NodesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A036E01C9C12730073B505 /* NodesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesTests.swift; sourceTree = "<group>"; };
 		30A036E21C9C12730073B505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30A036EB1C9C14970073B505 /* Nodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nodes.swift; sourceTree = "<group>"; };
+		30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlobfishConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				30A036D41C9C12720073B505 /* Nodes.h */,
-				30A036EB1C9C14970073B505 /* Nodes.swift */,
+				30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */,
+				304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */,
+				304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */,
 				30A036D61C9C12720073B505 /* Info.plist */,
 			);
 			path = Nodes;
@@ -221,7 +227,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A036EC1C9C14970073B505 /* Nodes.swift in Sources */,
+				30A036EC1C9C14970073B505 /* BlobfishConfiguration.swift in Sources */,
+				304BDE9C1CF51F28004D2DA6 /* PaginatedResponse.swift in Sources */,
+				304BDE9E1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

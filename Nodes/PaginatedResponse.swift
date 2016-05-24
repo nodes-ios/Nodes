@@ -1,38 +1,13 @@
 //
-//  Nodes.swift
+//  Pagination.swift
 //  Nodes
 //
-//  Created by Kasper Welner on 18/03/16.
+//  Created by Kasper Welner on 25/05/16.
 //  Copyright © 2016 Nodes. All rights reserved.
 //
 
 import Foundation
-import Blobfish
 import Serializable
-
-public struct BlobfishConfiguration {
-    static func errorCodeMapping() -> [Int : Blobfish.AlamofireConfig.ErrorCategory] {
-        return [
-            441 : .Token,
-            442 : .Token,
-            443 : .Token,
-        ]
-    }
-}
-
-public func unwrapper() -> Parser.Unwrapper  {
-    return { (sourceDictionary, type) in
-        if let nestedObject: AnyObject = sourceDictionary["data"] {
-            return nestedObject
-        }
-        
-        if let nestedObject: AnyObject = sourceDictionary[String(type.dynamicType)] {
-            return nestedObject
-        }
-        
-        return sourceDictionary
-    }
-}
 
 public struct Pagination {
     public var total = 0
