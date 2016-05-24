@@ -34,16 +34,16 @@ public func unwrapper() -> Parser.Unwrapper  {
     }
 }
 
-struct Pagination {
-    var total = 0
-    var count = 0
-    var perPage = 0
-    var currentPage = 0
-    var totalPages = 0
+public struct Pagination {
+    public var total = 0
+    public var count = 0
+    public var perPage = 0
+    public var currentPage = 0
+    public var totalPages = 0
 }
 
 extension Pagination: Serializable {
-    init(dictionary: NSDictionary?) {
+    public init(dictionary: NSDictionary?) {
         total       <== (self, dictionary, "total")
         count       <== (self, dictionary, "count")
         perPage     <== (self, dictionary, "per_page")
@@ -51,7 +51,7 @@ extension Pagination: Serializable {
         totalPages  <== (self, dictionary, "total_pages")
     }
     
-    func encodableRepresentation() -> NSCoding {
+    public func encodableRepresentation() -> NSCoding {
         let dict = NSMutableDictionary()
         (dict, "total")        <== total
         (dict, "count")        <== count
@@ -62,16 +62,16 @@ extension Pagination: Serializable {
     }
 }
 
-struct Meta {
-    var pagination = Pagination()
+public struct Meta {
+    public var pagination = Pagination()
 }
 
 extension Meta: Serializable {
-    init(dictionary: NSDictionary?) {
+    public init(dictionary: NSDictionary?) {
         pagination <== (self, dictionary, "pagination")
     }
     
-    func encodableRepresentation() -> NSCoding {
+    public func encodableRepresentation() -> NSCoding {
         let dict = NSMutableDictionary()
         (dict, "pagination") <== pagination
         return dict
@@ -80,21 +80,21 @@ extension Meta: Serializable {
 
 protocol PaginatedResponseProtocol { }
 
-final class PaginatedResponse<T:Serializable> {
-    var data:[T] = [T]()
-    var meta:Meta = Meta()
+public final class PaginatedResponse<T:Serializable> {
+    public var data:[T] = [T]()
+    public var meta:Meta = Meta()
 }
 
 extension PaginatedResponse: PaginatedResponseProtocol {}
 
 extension PaginatedResponse: Serializable {
-    convenience init(dictionary: NSDictionary?) {
+    convenience public init(dictionary: NSDictionary?) {
         self.init()
         data <== (self, dictionary, "data")
         meta <== (self, dictionary, "meta")
     }
     
-    func encodableRepresentation() -> NSCoding {
+    public func encodableRepresentation() -> NSCoding {
         let dict = NSMutableDictionary()
         (dict, "data") <== data
         (dict, "meta") <== meta
