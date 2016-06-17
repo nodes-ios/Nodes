@@ -7,24 +7,12 @@
 
 import Foundation
 
-public protocol ServerEnvironmentProtocol {
-    static func fromBuildSettings() -> Configuration.ServerEnvironment
-}
-
-public extension ServerEnvironmentProtocol {
-    static func fromBuildSettings() -> Configuration.ServerEnvironment { fatalError("NOT IMPLEMENTED") }
-}
-
-public protocol BuildTypeProtocol {
-    static func fromBuildSettings() -> Configuration.BuildType
-}
-
-public extension BuildTypeProtocol {
-    static func fromBuildSettings() -> Configuration.BuildType { fatalError("NOT IMPLEMENTED") }
+public protocol BuildSettingsInitializable {
+    static func fromBuildSettings() -> Self
 }
 
 public struct Configuration {
-    public enum ServerEnvironment : ServerEnvironmentProtocol {
+    public enum ServerEnvironment {
         case development(baseURLString:String)
         case staging(baseURLString:String)
         case live(baseURLString:String)
@@ -38,7 +26,7 @@ public struct Configuration {
         }
     }
     
-    public enum BuildType : BuildTypeProtocol {
+    public enum BuildType {
         case debug
         case test
         case release
@@ -54,6 +42,4 @@ public struct Configuration {
 
     public let environment:ServerEnvironment
     public let buildType:BuildType
-    
-    public static let current = Configuration(environment: ServerEnvironment.fromBuildSettings(), buildType: BuildType.fromBuildSettings())
 }
