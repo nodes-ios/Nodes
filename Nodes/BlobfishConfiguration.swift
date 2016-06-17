@@ -8,7 +8,6 @@
 
 import Foundation
 import Blobfish
-import Serializable
 
 public struct BlobfishConfiguration {
     static func errorCodeMapping() -> [Int : Blobfish.AlamofireConfig.ErrorCategory] {

@@ -7,9 +7,8 @@
 //
 
 import Foundation
-import Serializable
 
-public func unwrapper() -> Parser.Unwrapper  {
+public func unwrapper() -> ((sourceDictionary: NSDictionary, expectedType:Any) -> AnyObject?)  {
     return { (sourceDictionary, type) in
         if let nestedObject: AnyObject = sourceDictionary["data"] {
             return nestedObject
