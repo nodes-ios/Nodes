@@ -42,4 +42,9 @@ public struct Configuration {
 
     public let environment:ServerEnvironment
     public let buildType:BuildType
+    
+    public init(environment: ServerEnvironment, buildType: BuildType) {
+        self.environment = environment
+        self.buildType = buildType
+    }
 }
