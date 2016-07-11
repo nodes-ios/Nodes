@@ -12,9 +12,9 @@ import Blobfish
 public struct BlobfishConfiguration {
     static func errorCodeMapping() -> [Int : Blobfish.AlamofireConfig.ErrorCategory] {
         return [
-            441 : .Token,
-            442 : .Token,
-            443 : .Token,
+            441 : .token,
+            442 : .token,
+            443 : .token,
         ]
     }
 }
