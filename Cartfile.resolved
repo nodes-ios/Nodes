@@ -1,4 +1,4 @@
-github "Alamofire/Alamofire" "3.4.1"
-github "ashleymills/Reachability.swift" "v2.3.3"
-github "nodes-ios/Serializable" "0.11.1"
-github "nodes-ios/Blobfish" "0.1.2"
+github "Alamofire/Alamofire" "fcb4829a78d28e3491c6767cfb74e774871943b0"
+github "rgoble4/Reachability.swift" "d9333c19fb0aadb1b76b4a33db492226b7c0b714"
+github "nodes-ios/Serializable" "ef50d57f33d281b550f02153ee47e1284116e453"
+github "nodes-ios/Blobfish" "9743b5cc7de984dbda79179a6210f0b66c420532"
