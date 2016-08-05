@@ -17,6 +17,7 @@
 		30A036DC1C9C12730073B505 /* Nodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036D11C9C12720073B505 /* Nodes.framework */; };
 		30A036E11C9C12730073B505 /* NodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036E01C9C12730073B505 /* NodesTests.swift */; };
 		30A036EC1C9C14970073B505 /* BlobfishConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */; };
+		BDD823D41D54A4530081BA34 /* NodesUserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD823D31D54A4530081BA34 /* NodesUserAgent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		30A036E01C9C12730073B505 /* NodesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesTests.swift; sourceTree = "<group>"; };
 		30A036E21C9C12730073B505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlobfishConfiguration.swift; sourceTree = "<group>"; };
+		BDD823D31D54A4530081BA34 /* NodesUserAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodesUserAgent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */,
 				304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */,
 				304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */,
+				BDD823D31D54A4530081BA34 /* NodesUserAgent.swift */,
 				30A036D61C9C12720073B505 /* Info.plist */,
 			);
 			path = Nodes;
@@ -230,6 +233,7 @@
 			files = (
 				30A036EC1C9C14970073B505 /* BlobfishConfiguration.swift in Sources */,
 				304BDE9C1CF51F28004D2DA6 /* PaginatedResponse.swift in Sources */,
+				BDD823D41D54A4530081BA34 /* NodesUserAgent.swift in Sources */,
 				3022A95D1D12F1B000ADA737 /* Configuration.swift in Sources */,
 				304BDE9E1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift in Sources */,
 			);
