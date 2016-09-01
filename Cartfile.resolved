@@ -1,4 +1,4 @@
-github "Alamofire/Alamofire" "fcb4829a78d28e3491c6767cfb74e774871943b0"
-github "rgoble4/Reachability.swift" "d9333c19fb0aadb1b76b4a33db492226b7c0b714"
-github "nodes-ios/Serializable" "ef50d57f33d281b550f02153ee47e1284116e453"
-github "nodes-ios/Blobfish" "9743b5cc7de984dbda79179a6210f0b66c420532"
+github "Alamofire/Alamofire" "a78137ab4559f37219d6b2825552eea5462e4272"
+github "ashleymills/Reachability.swift" "3c7e72ac66186e2477d07d36e2b4589fb5e855d8"
+github "nodes-ios/Serializable" "a7d0d3e4f838a232dc525034f8d6094e838805ca"
+github "nodes-ios/Blobfish" "c10701a6d548a448523c14ac60d79904a21b4f0b"
