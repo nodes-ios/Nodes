@@ -10,9 +10,9 @@ import Foundation
 import Alamofire
 
 public func userAgentString(isLiveApp:Bool? = nil) -> String {
-    let defaultString =  Manager.defaultHTTPHeaders["User-Agent"] ?? ""
+    let defaultString =  SessionManager.defaultHTTPHeaders["User-Agent"] ?? ""
     
-    var appendString = "Nodes/\(NSBundle.mainBundle().releaseVersionNumber ?? "") ("
+    var appendString = "Nodes/\(Bundle.main.releaseVersionNumber ?? "") ("
     
     if let live = isLiveApp {
         if live {
@@ -32,7 +32,7 @@ public func userAgentString(isLiveApp:Bool? = nil) -> String {
     
 }
 
-extension NSBundle {
+extension Bundle {
     
     var releaseVersionNumber: String? {
         return self.infoDictionary?["CFBundleShortVersionString"] as? String
@@ -51,7 +51,7 @@ public extension UIDevice {
         uname(&systemInfo)
         let machineMirror = Mirror(reflecting: systemInfo.machine)
         let identifier = machineMirror.children.reduce("") { identifier, element in
-            guard let value = element.value as? Int8 where value != 0 else { return identifier }
+            guard let value = element.value as? Int8, value != 0 else { return identifier }
             return identifier + String(UnicodeScalar(UInt8(value)))
         }
         
