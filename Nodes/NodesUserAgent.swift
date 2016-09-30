@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 import Alamofire
 
 public func userAgentString(isLiveApp:Bool? = nil) -> String {

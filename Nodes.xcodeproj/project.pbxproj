@@ -18,6 +18,16 @@
 		30A036E11C9C12730073B505 /* NodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036E01C9C12730073B505 /* NodesTests.swift */; };
 		30A036EC1C9C14970073B505 /* BlobfishConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */; };
 		BDD823D41D54A4530081BA34 /* NodesUserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD823D31D54A4530081BA34 /* NodesUserAgent.swift */; };
+		E3689C511D9EC7E6004620D6 /* Nodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3689C481D9EC7E6004620D6 /* Nodes.framework */; };
+		E3689C561D9EC7E6004620D6 /* Nodes_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3689C551D9EC7E6004620D6 /* Nodes_tvOSTests.swift */; };
+		E3689C581D9EC7E6004620D6 /* Nodes-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E3689C4A1D9EC7E6004620D6 /* Nodes-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3689C641D9ECB8D004620D6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3689C611D9ECB8D004620D6 /* Alamofire.framework */; };
+		E3689C651D9ECB8D004620D6 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3689C621D9ECB8D004620D6 /* Reachability.framework */; };
+		E3689C661D9ECB8D004620D6 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3689C631D9ECB8D004620D6 /* Serializable.framework */; };
+		E38C6A151D9ECBE900B51907 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022A95C1D12F1B000ADA737 /* Configuration.swift */; };
+		E38C6A161D9ECBE900B51907 /* SerializableParserUnwrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */; };
+		E38C6A171D9ECBE900B51907 /* PaginatedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */; };
+		E38C6A181D9ECBE900B51907 /* NodesUserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD823D31D54A4530081BA34 /* NodesUserAgent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 30A036D01C9C12720073B505;
 			remoteInfo = Nodes;
+		};
+		E3689C521D9EC7E6004620D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A036C81C9C12720073B505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3689C471D9EC7E6004620D6;
+			remoteInfo = "Nodes-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -45,6 +62,15 @@
 		30A036E21C9C12730073B505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlobfishConfiguration.swift; sourceTree = "<group>"; };
 		BDD823D31D54A4530081BA34 /* NodesUserAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodesUserAgent.swift; sourceTree = "<group>"; };
+		E3689C481D9EC7E6004620D6 /* Nodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3689C4A1D9EC7E6004620D6 /* Nodes-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nodes-tvOS.h"; sourceTree = "<group>"; };
+		E3689C4B1D9EC7E6004620D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3689C501D9EC7E6004620D6 /* Nodes.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nodes.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3689C551D9EC7E6004620D6 /* Nodes_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nodes_tvOSTests.swift; sourceTree = "<group>"; };
+		E3689C571D9EC7E6004620D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3689C611D9ECB8D004620D6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
+		E3689C621D9ECB8D004620D6 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/tvOS/Reachability.framework; sourceTree = "<group>"; };
+		E3689C631D9ECB8D004620D6 /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/tvOS/Serializable.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +92,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3689C441D9EC7E6004620D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3689C641D9ECB8D004620D6 /* Alamofire.framework in Frameworks */,
+				E3689C651D9ECB8D004620D6 /* Reachability.framework in Frameworks */,
+				E3689C661D9ECB8D004620D6 /* Serializable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3689C4D1D9EC7E6004620D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3689C511D9EC7E6004620D6 /* Nodes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,6 +118,8 @@
 			children = (
 				30A036D31C9C12720073B505 /* Nodes */,
 				30A036DF1C9C12730073B505 /* NodesTests */,
+				E3689C491D9EC7E6004620D6 /* Nodes-tvOS */,
+				E3689C541D9EC7E6004620D6 /* Nodes-tvOSTests */,
 				30A036D21C9C12720073B505 /* Products */,
 				30A036ED1C9C24A50073B505 /* Frameworks */,
 			);
@@ -84,6 +130,8 @@
 			children = (
 				30A036D11C9C12720073B505 /* Nodes.framework */,
 				30A036DB1C9C12730073B505 /* NodesTests.xctest */,
+				E3689C481D9EC7E6004620D6 /* Nodes.framework */,
+				E3689C501D9EC7E6004620D6 /* Nodes.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,11 +162,48 @@
 		30A036ED1C9C24A50073B505 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E3689C601D9EC800004620D6 /* tvOS */,
+				E3689C5F1D9EC7FA004620D6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3689C491D9EC7E6004620D6 /* Nodes-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E3689C4A1D9EC7E6004620D6 /* Nodes-tvOS.h */,
+				E3689C4B1D9EC7E6004620D6 /* Info.plist */,
+			);
+			path = "Nodes-tvOS";
+			sourceTree = "<group>";
+		};
+		E3689C541D9EC7E6004620D6 /* Nodes-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3689C551D9EC7E6004620D6 /* Nodes_tvOSTests.swift */,
+				E3689C571D9EC7E6004620D6 /* Info.plist */,
+			);
+			path = "Nodes-tvOSTests";
+			sourceTree = "<group>";
+		};
+		E3689C5F1D9EC7FA004620D6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
 				3022A95F1D13DFF400ADA737 /* Serializable.framework */,
 				01C706D41C9DB0C10024E94A /* Blobfish.framework */,
 				01C706D51C9DB0C10024E94A /* Reachability.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E3689C601D9EC800004620D6 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E3689C611D9ECB8D004620D6 /* Alamofire.framework */,
+				E3689C621D9ECB8D004620D6 /* Reachability.framework */,
+				E3689C631D9ECB8D004620D6 /* Serializable.framework */,
+			);
+			name = tvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +214,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				30A036D51C9C12720073B505 /* Nodes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3689C451D9EC7E6004620D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3689C581D9EC7E6004620D6 /* Nodes-tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,13 +264,49 @@
 			productReference = 30A036DB1C9C12730073B505 /* NodesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E3689C471D9EC7E6004620D6 /* Nodes-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3689C5D1D9EC7E6004620D6 /* Build configuration list for PBXNativeTarget "Nodes-tvOS" */;
+			buildPhases = (
+				E3689C431D9EC7E6004620D6 /* Sources */,
+				E3689C441D9EC7E6004620D6 /* Frameworks */,
+				E3689C451D9EC7E6004620D6 /* Headers */,
+				E3689C461D9EC7E6004620D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nodes-tvOS";
+			productName = "Nodes-tvOS";
+			productReference = E3689C481D9EC7E6004620D6 /* Nodes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3689C4F1D9EC7E6004620D6 /* Nodes-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3689C5E1D9EC7E6004620D6 /* Build configuration list for PBXNativeTarget "Nodes-tvOSTests" */;
+			buildPhases = (
+				E3689C4C1D9EC7E6004620D6 /* Sources */,
+				E3689C4D1D9EC7E6004620D6 /* Frameworks */,
+				E3689C4E1D9EC7E6004620D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3689C531D9EC7E6004620D6 /* PBXTargetDependency */,
+			);
+			name = "Nodes-tvOSTests";
+			productName = "Nodes-tvOSTests";
+			productReference = E3689C501D9EC7E6004620D6 /* Nodes.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		30A036C81C9C12720073B505 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Nodes;
 				TargetAttributes = {
@@ -188,6 +317,16 @@
 					30A036DA1C9C12730073B505 = {
 						CreatedOnToolsVersion = 7.3;
 						LastSwiftMigration = 0800;
+					};
+					E3689C471D9EC7E6004620D6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HW27H6H98R;
+						ProvisioningStyle = Automatic;
+					};
+					E3689C4F1D9EC7E6004620D6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HW27H6H98R;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -205,6 +344,8 @@
 			targets = (
 				30A036D01C9C12720073B505 /* Nodes */,
 				30A036DA1C9C12730073B505 /* NodesTests */,
+				E3689C471D9EC7E6004620D6 /* Nodes-tvOS */,
+				E3689C4F1D9EC7E6004620D6 /* Nodes-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +359,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		30A036D91C9C12730073B505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3689C461D9EC7E6004620D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3689C4E1D9EC7E6004620D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,6 +402,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3689C431D9EC7E6004620D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38C6A151D9ECBE900B51907 /* Configuration.swift in Sources */,
+				E38C6A161D9ECBE900B51907 /* SerializableParserUnwrapper.swift in Sources */,
+				E38C6A171D9ECBE900B51907 /* PaginatedResponse.swift in Sources */,
+				E38C6A181D9ECBE900B51907 /* NodesUserAgent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3689C4C1D9EC7E6004620D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3689C561D9EC7E6004620D6 /* Nodes_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -254,6 +428,11 @@
 			isa = PBXTargetDependency;
 			target = 30A036D01C9C12720073B505 /* Nodes */;
 			targetProxy = 30A036DD1C9C12730073B505 /* PBXContainerItemProxy */;
+		};
+		E3689C531D9EC7E6004620D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3689C471D9EC7E6004620D6 /* Nodes-tvOS */;
+			targetProxy = E3689C521D9EC7E6004620D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,6 +599,104 @@
 			};
 			name = Release;
 		};
+		E3689C591D9EC7E6004620D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HW27H6H98R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "Nodes-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nodes.Nodes-tvOS";
+				PRODUCT_NAME = Nodes;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		E3689C5A1D9EC7E6004620D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HW27H6H98R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "Nodes-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nodes.Nodes-tvOS";
+				PRODUCT_NAME = Nodes;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		E3689C5B1D9EC7E6004620D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = HW27H6H98R;
+				INFOPLIST_FILE = "Nodes-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nodes.Nodes-tvOSTests";
+				PRODUCT_NAME = Nodes;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E3689C5C1D9EC7E6004620D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = HW27H6H98R;
+				INFOPLIST_FILE = "Nodes-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nodes.Nodes-tvOSTests";
+				PRODUCT_NAME = Nodes;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -446,6 +723,24 @@
 			buildConfigurations = (
 				30A036E91C9C12730073B505 /* Debug */,
 				30A036EA1C9C12730073B505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3689C5D1D9EC7E6004620D6 /* Build configuration list for PBXNativeTarget "Nodes-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3689C591D9EC7E6004620D6 /* Debug */,
+				E3689C5A1D9EC7E6004620D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3689C5E1D9EC7E6004620D6 /* Build configuration list for PBXNativeTarget "Nodes-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3689C5B1D9EC7E6004620D6 /* Debug */,
+				E3689C5C1D9EC7E6004620D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
