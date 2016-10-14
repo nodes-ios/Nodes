@@ -10,7 +10,7 @@ import Foundation
 import Blobfish
 
 public struct BlobfishConfiguration {
-    static func errorCodeMapping() -> [Int : Blobfish.AlamofireConfig.ErrorCategory] {
+    public static func errorCodeMapping() -> [Int : Blobfish.AlamofireConfig.ErrorCategory] {
         return [
             441 : .token,
             442 : .token,
