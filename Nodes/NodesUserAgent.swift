@@ -23,7 +23,7 @@ public func userAgentString(environment: AppEnvironment) -> String {
     appendString += "\(environment.rawValue);"
     appendString += "\(Bundle.main.releaseVersionNumber ?? "");"
     appendString += "\(UIDevice.current.systemVersion);"
-    appendString += "\(UIDevice().modelName))"
+    appendString += "\(UIDevice().modelName)"
     
     return appendString
 }
