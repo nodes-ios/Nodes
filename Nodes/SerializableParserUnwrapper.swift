@@ -1,5 +1,5 @@
 //
-//  SerializableParserUnwrapper.swift
+//  SerpentParserUnwrapper.swift
 //  Nodes
 //
 //  Created by Kasper Welner on 25/05/16.
@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Serializable
+import Serpent
 
 public func unwrapper() -> Parser.Unwrapper  {
     return { (sourceDictionary, type) in
