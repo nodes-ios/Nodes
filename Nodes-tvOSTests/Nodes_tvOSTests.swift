@@ -1,15 +1,15 @@
 //
-//  NodesTests.swift
-//  NodesTests
+//  Nodes_tvOSTests.swift
+//  Nodes-tvOSTests
 //
-//  Created by Kasper Welner on 18/03/16.
+//  Created by Todor Brachkov on 30/09/2016.
 //  Copyright © 2016 Nodes. All rights reserved.
 //
 
 import XCTest
 @testable import Nodes
 
-class NodesTests: XCTestCase {
+class Nodes_tvOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

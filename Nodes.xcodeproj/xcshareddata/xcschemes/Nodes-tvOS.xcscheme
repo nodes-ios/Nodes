@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30A036D01C9C12720073B505"
+               BlueprintIdentifier = "E3689C471D9EC7E6004620D6"
                BuildableName = "Nodes.framework"
-               BlueprintName = "Nodes"
+               BlueprintName = "Nodes-tvOS"
                ReferencedContainer = "container:Nodes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30A036DA1C9C12730073B505"
-               BuildableName = "NodesTests.xctest"
-               BlueprintName = "NodesTests"
+               BlueprintIdentifier = "E3689C4F1D9EC7E6004620D6"
+               BuildableName = "Nodes.xctest"
+               BlueprintName = "Nodes-tvOSTests"
                ReferencedContainer = "container:Nodes.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30A036D01C9C12720073B505"
+            BlueprintIdentifier = "E3689C471D9EC7E6004620D6"
             BuildableName = "Nodes.framework"
-            BlueprintName = "Nodes"
+            BlueprintName = "Nodes-tvOS"
             ReferencedContainer = "container:Nodes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30A036D01C9C12720073B505"
+            BlueprintIdentifier = "E3689C471D9EC7E6004620D6"
             BuildableName = "Nodes.framework"
-            BlueprintName = "Nodes"
+            BlueprintName = "Nodes-tvOS"
             ReferencedContainer = "container:Nodes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30A036D01C9C12720073B505"
+            BlueprintIdentifier = "E3689C471D9EC7E6004620D6"
             BuildableName = "Nodes.framework"
-            BlueprintName = "Nodes"
+            BlueprintName = "Nodes-tvOS"
             ReferencedContainer = "container:Nodes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

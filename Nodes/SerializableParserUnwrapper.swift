@@ -1,5 +1,5 @@
 //
-//  SerializableParserUnwrapper.swift
+//  SerpentParserUnwrapper.swift
 //  Nodes
 //
 //  Created by Kasper Welner on 25/05/16.
@@ -7,15 +7,15 @@
 //
 
 import Foundation
-import Serializable
+import Serpent
 
 public func unwrapper() -> Parser.Unwrapper  {
     return { (sourceDictionary, type) in
-        if let nestedObject: AnyObject = sourceDictionary["data"] {
+        if let nestedObject = sourceDictionary.value(forKey: "data") {
             return nestedObject
         }
         
-        if let nestedObject: AnyObject = sourceDictionary[String(type.dynamicType)] {
+        if let nestedObject = sourceDictionary.value(forKey: String(describing: type.self)) {
             return nestedObject
         }
         

@@ -1,2 +1,2 @@
-github "nodes-ios/Blobfish"
-github "nodes-ios/Serializable"
+github "nodes-ios/Blobfish" ~> 1.0
+github "nodes-ios/Serpent" ~> 1.0
