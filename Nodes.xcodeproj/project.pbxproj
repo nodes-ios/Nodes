@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01C706D81C9DB0C10024E94A /* Blobfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C706D41C9DB0C10024E94A /* Blobfish.framework */; };
-		01C706D91C9DB0C10024E94A /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C706D51C9DB0C10024E94A /* Reachability.framework */; };
 		3022A95D1D12F1B000ADA737 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022A95C1D12F1B000ADA737 /* Configuration.swift */; };
 		304BDE9C1CF51F28004D2DA6 /* PaginatedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */; };
 		304BDE9E1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */; };
@@ -23,7 +22,6 @@
 		E3689C561D9EC7E6004620D6 /* Nodes_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3689C551D9EC7E6004620D6 /* Nodes_tvOSTests.swift */; };
 		E3689C581D9EC7E6004620D6 /* Nodes-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E3689C4A1D9EC7E6004620D6 /* Nodes-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3689C641D9ECB8D004620D6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3689C611D9ECB8D004620D6 /* Alamofire.framework */; };
-		E3689C651D9ECB8D004620D6 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3689C621D9ECB8D004620D6 /* Reachability.framework */; };
 		E38C6A151D9ECBE900B51907 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022A95C1D12F1B000ADA737 /* Configuration.swift */; };
 		E38C6A161D9ECBE900B51907 /* SerializableParserUnwrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */; };
 		E38C6A171D9ECBE900B51907 /* PaginatedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */; };
@@ -49,7 +47,6 @@
 
 /* Begin PBXFileReference section */
 		01C706D41C9DB0C10024E94A /* Blobfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blobfish.framework; path = Carthage/Build/iOS/Blobfish.framework; sourceTree = "<group>"; };
-		01C706D51C9DB0C10024E94A /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
 		3022A95C1D12F1B000ADA737 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatedResponse.swift; sourceTree = "<group>"; };
 		304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializableParserUnwrapper.swift; sourceTree = "<group>"; };
@@ -70,7 +67,6 @@
 		E3689C551D9EC7E6004620D6 /* Nodes_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nodes_tvOSTests.swift; sourceTree = "<group>"; };
 		E3689C571D9EC7E6004620D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3689C611D9ECB8D004620D6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/tvOS/Alamofire.framework; sourceTree = "<group>"; };
-		E3689C621D9ECB8D004620D6 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/tvOS/Reachability.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C706D91C9DB0C10024E94A /* Reachability.framework in Frameworks */,
 				01C706D81C9DB0C10024E94A /* Blobfish.framework in Frameworks */,
 				BDCEA6E61DE2FF0900F4EEDC /* Serpent.framework in Frameworks */,
 			);
@@ -97,7 +92,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3689C641D9ECB8D004620D6 /* Alamofire.framework in Frameworks */,
-				E3689C651D9ECB8D004620D6 /* Reachability.framework in Frameworks */,
 				BDCEA6E81DE2FF1B00F4EEDC /* Serpent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,7 +185,6 @@
 			children = (
 				BDCEA6E51DE2FF0900F4EEDC /* Serpent.framework */,
 				01C706D41C9DB0C10024E94A /* Blobfish.framework */,
-				01C706D51C9DB0C10024E94A /* Reachability.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -201,7 +194,6 @@
 			children = (
 				BDCEA6E71DE2FF1B00F4EEDC /* Serpent.framework */,
 				E3689C611D9ECB8D004620D6 /* Alamofire.framework */,
-				E3689C621D9ECB8D004620D6 /* Reachability.framework */,
 			);
 			name = tvOS;
 			sourceTree = "<group>";

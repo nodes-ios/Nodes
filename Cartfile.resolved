@@ -2,4 +2,3 @@ github "Alamofire/Alamofire" "4.2.0"
 github "nodes-ios/Cashier" "1.2.1"
 github "nodes-ios/Blobfish" "1.0.0"
 github "nodes-ios/Serpent" "1.0.1"
-
