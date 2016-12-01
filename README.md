@@ -44,7 +44,7 @@ This framework contains an unwrapper to be used with [Serializable](https://gith
 You however need to manually set this unwrapper on the Parser inside Serializable. Best place to do this is in your `AppDelegate`.
 
 ```swift
-import Serializable
+import Serpent
 import Nodes
 
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
