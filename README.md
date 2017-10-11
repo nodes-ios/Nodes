@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://crunchbase-production-res.cloudinary.com/image/upload/c_pad,h_98,w_98/v1413092159/tdbsauyud0ukogknylzu.svg" alt="Nodes"/>
+  <img src="https://d1gwekl0pol55k.cloudfront.net/image/nstack/translate_values/NodesKit-medium_8SRCWP7w4D.png" alt="NodesKit"/>
 </p>
 
 
