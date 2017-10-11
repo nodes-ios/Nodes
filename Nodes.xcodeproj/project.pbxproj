@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C706D81C9DB0C10024E94A /* Blobfish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C706D41C9DB0C10024E94A /* Blobfish.framework */; };
 		3022A95D1D12F1B000ADA737 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022A95C1D12F1B000ADA737 /* Configuration.swift */; };
 		304BDE9C1CF51F28004D2DA6 /* PaginatedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */; };
 		304BDE9E1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */; };
 		30A036D51C9C12720073B505 /* Nodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A036D41C9C12720073B505 /* Nodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30A036DC1C9C12730073B505 /* Nodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A036D11C9C12720073B505 /* Nodes.framework */; };
 		30A036E11C9C12730073B505 /* NodesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036E01C9C12730073B505 /* NodesTests.swift */; };
-		30A036EC1C9C14970073B505 /* BlobfishConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */; };
 		BDCEA6E61DE2FF0900F4EEDC /* Serpent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCEA6E51DE2FF0900F4EEDC /* Serpent.framework */; };
 		BDCEA6E81DE2FF1B00F4EEDC /* Serpent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCEA6E71DE2FF1B00F4EEDC /* Serpent.framework */; };
 		BDD823D41D54A4530081BA34 /* NodesUserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD823D31D54A4530081BA34 /* NodesUserAgent.swift */; };
@@ -46,7 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C706D41C9DB0C10024E94A /* Blobfish.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Blobfish.framework; path = Carthage/Build/iOS/Blobfish.framework; sourceTree = "<group>"; };
 		3022A95C1D12F1B000ADA737 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatedResponse.swift; sourceTree = "<group>"; };
 		304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializableParserUnwrapper.swift; sourceTree = "<group>"; };
@@ -56,7 +53,6 @@
 		30A036DB1C9C12730073B505 /* NodesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A036E01C9C12730073B505 /* NodesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodesTests.swift; sourceTree = "<group>"; };
 		30A036E21C9C12730073B505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlobfishConfiguration.swift; sourceTree = "<group>"; };
 		BDCEA6E51DE2FF0900F4EEDC /* Serpent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serpent.framework; path = Carthage/Build/iOS/Serpent.framework; sourceTree = "<group>"; };
 		BDCEA6E71DE2FF1B00F4EEDC /* Serpent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serpent.framework; path = Carthage/Build/tvOS/Serpent.framework; sourceTree = "<group>"; };
 		BDD823D31D54A4530081BA34 /* NodesUserAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodesUserAgent.swift; sourceTree = "<group>"; };
@@ -74,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C706D81C9DB0C10024E94A /* Blobfish.framework in Frameworks */,
 				BDCEA6E61DE2FF0900F4EEDC /* Serpent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +130,6 @@
 			children = (
 				30A036D41C9C12720073B505 /* Nodes.h */,
 				3022A95C1D12F1B000ADA737 /* Configuration.swift */,
-				30A036EB1C9C14970073B505 /* BlobfishConfiguration.swift */,
 				304BDE9D1CF51F78004D2DA6 /* SerializableParserUnwrapper.swift */,
 				304BDE9B1CF51F28004D2DA6 /* PaginatedResponse.swift */,
 				BDD823D31D54A4530081BA34 /* NodesUserAgent.swift */,
@@ -184,7 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				BDCEA6E51DE2FF0900F4EEDC /* Serpent.framework */,
-				01C706D41C9DB0C10024E94A /* Blobfish.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -378,7 +371,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A036EC1C9C14970073B505 /* BlobfishConfiguration.swift in Sources */,
 				304BDE9C1CF51F28004D2DA6 /* PaginatedResponse.swift in Sources */,
 				BDD823D41D54A4530081BA34 /* NodesUserAgent.swift in Sources */,
 				3022A95D1D12F1B000ADA737 /* Configuration.swift in Sources */,
