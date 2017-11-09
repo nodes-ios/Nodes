@@ -9,7 +9,7 @@
 import Foundation
 import Serpent
 
-public struct Pagination {
+public struct Paginator {
     public var total = 0
     public var count = 0
     public var perPage = 0
@@ -17,38 +17,38 @@ public struct Pagination {
     public var totalPages = 0
 }
 
-extension Pagination: Serializable {
+extension Paginator: Serializable {
     public init(dictionary: NSDictionary?) {
         total       <== (self, dictionary, "total")
         count       <== (self, dictionary, "count")
-        perPage     <== (self, dictionary, "per_page")
-        currentPage <== (self, dictionary, "current_page")
-        totalPages  <== (self, dictionary, "total_pages")
+        perPage     <== (self, dictionary, "perPage")
+        currentPage <== (self, dictionary, "currentPage")
+        totalPages  <== (self, dictionary, "totalPages")
     }
     
     public func encodableRepresentation() -> NSCoding {
         let dict = NSMutableDictionary()
-        (dict, "total")        <== total
-        (dict, "count")        <== count
-        (dict, "per_page")     <== perPage
-        (dict, "current_page") <== currentPage
-        (dict, "total_pages")  <== totalPages
+        (dict, "total")       <== total
+        (dict, "count")       <== count
+        (dict, "perPage")     <== perPage
+        (dict, "currentPage") <== currentPage
+        (dict, "totalPages")  <== totalPages
         return dict
     }
 }
 
 public struct Meta {
-    public var pagination = Pagination()
+    public var paginator = Paginator()
 }
 
 extension Meta: Serializable {
     public init(dictionary: NSDictionary?) {
-        pagination <== (self, dictionary, "pagination")
+        paginator <== (self, dictionary, "paginator")
     }
     
     public func encodableRepresentation() -> NSCoding {
         let dict = NSMutableDictionary()
-        (dict, "pagination") <== pagination
+        (dict, "paginator") <== paginator
         return dict
     }
 }
