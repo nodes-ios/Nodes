@@ -71,7 +71,7 @@ fetchInformationFromAPI(completion: { response in
 	switch response.result {
 	case .Success(let object):
 		print(object.data) // Your model, in this case `Information`
-		print(object.meta.pagination) // The meta (pagination) data
+		print(object.meta.paginator) // The meta (paginator) data
 		break
 	default: break
 	}
