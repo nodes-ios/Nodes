@@ -23,6 +23,12 @@ github "nodes-ios/Nodes" ~> 1.0
 
 > Last versions compatible with lower Swift versions:  
 >
+> **Swift 3.1**  
+> `github "nodes-ios/Nodes" == 1.0.2`
+>
+> **Swift 3.0**  
+> `github "nodes-ios/Nodes" == 1.0.0`
+>
 > **Swift 2.3**  
 > `github "nodes-ios/Nodes" == 0.2.5`
 >
