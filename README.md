@@ -18,7 +18,7 @@ This repository is a collection of extensions, snippets and tweaks we commonly u
 
 ### Carthage
 ~~~bash
-github "nodes-ios/Nodes" ~> 1.0
+github "nodes-ios/Nodes" ~> 2.0
 ~~~
 
 > Last versions compatible with lower Swift versions:  
