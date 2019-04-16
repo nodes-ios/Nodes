@@ -1,3 +1,3 @@
-github "Alamofire/Alamofire" "4.5.1"
-github "nodes-ios/Cashier" "1.2.2"
-github "nodes-ios/Serpent" "1.1.1"
+github "Alamofire/Alamofire" "4.8.2"
+github "nodes-ios/Cashier" "1.3"
+github "nodes-ios/Serpent" "2.0.0"
