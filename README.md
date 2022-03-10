@@ -1,3 +1,6 @@
+### This library has been deprecated and the repo has been archived. 
+### The code is still here and you can still clone it, however the library will not receive any more updates or support.
+
 <p align="center">
   <img src="https://d1gwekl0pol55k.cloudfront.net/image/nstack/translate_values/NodesKit-medium_8SRCWP7w4D.png" alt="NodesKit"/>
 </p>
